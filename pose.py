@@ -1,5 +1,6 @@
-import numpy as np
+from operator import __truediv__
 
+import numpy as np
 
 class PoseSequence:
     def __init__(self, sequence):
