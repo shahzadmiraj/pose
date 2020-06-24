@@ -1,6 +1,6 @@
 import numpy as np
 
- 
+
 class PoseSequence:
     def __init__(self, sequence):
         self.poses = []
