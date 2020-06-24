@@ -41,8 +41,9 @@ def main():
         if args.video:
             print('processing video file...')
             video = os.path.basename(args.video)
-            
+
             output_path = os.path.join('..', os.path.splitext(video)[0])
+
             openpose_path = os.path.join('bin', 'OpenPoseDemo.exe')
             os.chdir('openpose')
             subprocess.call([openpose_path, 
